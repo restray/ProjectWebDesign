@@ -5,6 +5,4 @@ If you want to be listed to my website as partner contact me on my website : htt
 
 Example for the webpages : 
 
-```
 https://restray.github.io/RestrayWebDesign.github.io/1/
-```
