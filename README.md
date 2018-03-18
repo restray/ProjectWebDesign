@@ -1,5 +1,5 @@
 # ProjectWebDesign
 
-All the projects here are free access with one condition : keep the .restray in the footer of any project.
+All the projects here are free access with one condition : keep the .restray in the footer of any project. \
 If you want to be listed to my website as partner contact me on my website : https://restray.org
 
