@@ -1,0 +1,123 @@
+body{
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+}
+
+/* NavBar */
+nav{
+    position: relative;
+    height: 7em;
+    width: 100vw;
+    margin-bottom: 15px;
+    z-index: 999;
+}
+
+/* Stylise link in the nav */
+nav a{
+    text-decoration: none;
+    color: #e84118;
+}
+
+nav ul{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    line-height: 0;
+    width: 100vw;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* Li center on the center */
+nav .center{
+    position: relative;
+    width: 100vw;
+    text-align: center
+}
+nav .center li{
+    font-weight: bold;
+    padding: 0 3.5%;
+}
+
+/* Logo place */
+nav li.logo{
+    vertical-align: top;
+    padding-left: 3%;
+}
+nav li.logo span{
+    font-size: 30px;
+    background: -webkit-linear-gradient(yellow, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Login place */
+nav li.login{
+    position: absolute;
+    right: 3%;
+}
+nav li.login a{
+    color: #4cd137;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: #4cd137 1px solid;
+    border-radius: 50px;
+}
+
+/* Footer */
+footer {
+    padding: 3em 0;
+    width: 100vw;
+}
+
+footer ul{
+    text-align: right;
+    width: 100vw;
+}
+
+/* Stylise link */
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Display the copyright */
+footer .copyright{
+    float: left;
+    padding: 0 4em;
+}
+
+/* Display the element of the list */
+footer li{
+    list-style: none;
+    display: inline-block;
+}
+footer li:last-of-type{
+    padding: 0 4em;
+}
+
+/* Stylisation of restray */
+footer .restray{
+    text-align: left;
+    padding: 0 4em;
+}
+
+footer .restray .heart{
+    color: red;
+    vertical-align: top;
+    padding-top: 1vh;
+}
+footer .restray a{
+    vertical-align: top;
+    text-decoration: underline;
+}
